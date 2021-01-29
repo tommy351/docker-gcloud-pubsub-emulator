@@ -1,4 +1,4 @@
-FROM google/cloud-sdk:alpine
+FROM gcr.io/google.com/cloudsdktool/cloud-sdk:alpine
 
 RUN apk add --update --no-cache openjdk11-jre-headless && \
   gcloud components install beta pubsub-emulator

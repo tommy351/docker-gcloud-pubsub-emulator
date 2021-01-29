@@ -1,4 +1,4 @@
-FROM google/cloud-sdk:slim
+FROM gcr.io/google.com/cloudsdktool/cloud-sdk:slim
 
 RUN \
   # Install equivs
